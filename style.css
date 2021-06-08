@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100%;
+  width: 90%;
 }
 
 /* ---  Groups & Items --- */
@@ -141,7 +141,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 800px) {
+@media all and (min-width: 480px) {
   h1 {
     padding: 0 10%;
   }
@@ -175,5 +175,20 @@ footer p {
     flex-direction: row;
     align-items: center;
   }
-  
+  form{
+    font-size:13px;
+  }
+  section[id="about"] .group{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    font-size:14px;
+    text-align:left;
+  }
+  section[id="download"] .group{
+    display:flex;
+    flex-direction:row;
+    font-size:15px;
+    align-items:center;
+  }
 }
